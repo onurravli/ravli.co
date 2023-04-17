@@ -1,11 +1,11 @@
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/Contact.module.css";
 import CommonHead from "@/components/CommonHead";
 
-export default function Home() {
+export default function Contact() {
   return (
     <>
       <main className={styles.main}>
-        <CommonHead title={"Home"} />
+        <CommonHead title={"Contact"} />
       </main>
     </>
   );

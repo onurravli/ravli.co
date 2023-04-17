@@ -1,0 +1,7 @@
+.icon {
+	filter: grayscale(100%) invert(100%);
+}
+
+.icon svg {
+	fill: #fff;
+}
