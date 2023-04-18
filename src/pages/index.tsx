@@ -9,6 +9,7 @@ export default function Home() {
           <title>ravlico - Home</title>
           <meta name="description" content="Ravlico Information Technologies Communication and Consultancy" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="color-scheme" content="#333333" />
           <link rel="icon" href="/triangle-black-1000.png" />
         </Head>
       </main>
