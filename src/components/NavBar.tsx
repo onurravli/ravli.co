@@ -41,20 +41,20 @@ export default function NavBar() {
         <ul>
           <li>
             <Link className={styles.link} style={poppins.style} href={"/"}>
-              <AiFillHome className={styles.icon} />
+              {/*<AiFillHome className={styles.icon} />*/}
               Home
             </Link>
           </li>
           <li>
             <Link className={styles.link} style={poppins.style} href={"/about"}>
               {/*<Icon height={15} width={15} />*/}
-              <BsFillPatchQuestionFill className={styles.icon} />
+              {/*<BsFillPatchQuestionFill className={styles.icon} />*/}
               About
             </Link>
           </li>
           <li>
             <Link className={styles.link} style={poppins.style} href={"/contact"}>
-              <GrMail className={styles.icon} />
+              {/*<GrMail className={styles.icon} />*/}
               Contact
             </Link>
           </li>

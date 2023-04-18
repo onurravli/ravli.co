@@ -1,4 +1,4 @@
-import icon from "/public/ravlico-icon.svg";
+import icon from "/public/ravlico-black";
 import styles from "@/styles/Icon.module.css";
 import Image from "next/image";
 

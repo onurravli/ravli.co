@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "/public/ravlico-logo-white.svg";
+import logo from "/public/ravlico-white-horizontal.svg";
 import styles from "@/styles/Logo.module.css";
 
 export default function Logo() {
