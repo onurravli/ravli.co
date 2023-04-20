@@ -2,13 +2,14 @@ import { BsFillPatchQuestionFill } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import styles from "@/styles/NavBar.module.css";
 import { AiFillHome } from "react-icons/ai";
-import { Poppins } from "next/font/google";
+import { Poppins, Inter } from "next/font/google";
 import { GrMail } from "react-icons/gr";
 import Logo from "@/components/Logo";
 import { useState } from "react";
 import Link from "next/link";
 
 const poppins = Poppins({ weight: "500", subsets: ["latin"] });
+const inter = Inter({weight: "500", subsets: ["latin"]})
 
 export default function NavBar() {
   const [left, setLeft] = useState("-1000px");
